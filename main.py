@@ -53,7 +53,7 @@ class neuralNetwork:
 if __name__ == '__main__':
     print("hello")
     # 读文件 将文件的数据分行读出来 一行是一个图片文件的数据
-    data_file = open("C:\\Users\\HP\\PycharmProjects\\神经网络\\测试数据\\mnist_train.csv", 'r')
+    data_file = open("C:\\Users\\Administrator\\Desktop\\newcode\\network\\测试数据\\mnist_train.csv", 'r')
     # 将所有图片信息读到一个链表里面
     data_list = data_file.readlines()
     data_file.close()
@@ -113,5 +113,5 @@ if __name__ == '__main__':
     scorecard_array = numpy.asarray(scorecard)
     print("performance =", scorecard_array.sum()/scorecard_array.size)
 
-
+    #显示图片 显示的内容为其中一张图片
     matplotlib.pyplot.show()
