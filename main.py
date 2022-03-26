@@ -113,5 +113,5 @@ if __name__ == '__main__':
     scorecard_array = numpy.asarray(scorecard)
     print("performance =", scorecard_array.sum()/scorecard_array.size)
 
-    #显示图片 显示的内容为其中一张图片
+    #显示图片 显示的内容为其中一张图片 数字4
     matplotlib.pyplot.show()
