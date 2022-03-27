@@ -114,5 +114,5 @@ if __name__ == '__main__':
     print("performance =", scorecard_array.sum()/scorecard_array.size)
 
     #显示图片 显示的内容为其中一张图片 数字4或者9  
-    #此处查看图片 关闭窗口结束
+    #此处查看图片 关闭窗口结束程序
     matplotlib.pyplot.show()
